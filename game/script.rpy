@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define d = Character("Daren")
 define a = Character("Ceejay")
 define narrator = nvl_narrator
 # The game starts here.
@@ -25,9 +25,9 @@ label start:
     # These display lines of dialogue.
     
     "Oh, hewwo derr! Wewcome to mai game!"
-    e "You've created a new Ren'Py game."
-    a "Hi, my name is Gai-boi"
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    d "Sup, Nerd. Welcome to our practice run. You ready to be disappointed?"
+    a "Oh fuck yeah, buddy!"
+    d "Fookin' ace baby!"
 
     # This ends the game.
 
