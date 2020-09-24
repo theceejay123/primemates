@@ -26,7 +26,7 @@ label start:
     
     "Oh, hewwo derr! Wewcome to mai game!"
     e "You've created a new Ren'Py game."
-    a "Hi, my name is Ceejay"
+    a "Hi, my name is Gai-boi"
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
