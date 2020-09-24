@@ -28,7 +28,7 @@ label start:
 
     "THIS IS GOD TALKING, BOW DOWN BITCH. NANI?!?!??!"
     e "You've created a new Ren'Py game."
-    a "Hi my name is ceejay"
+    a "Hi my name is pokemon master"
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
