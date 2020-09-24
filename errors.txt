@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 29: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    e "Once you add a story, pictures, and music, you can release it to the world!"
+    ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Tue Sep 22 19:51:05 2020

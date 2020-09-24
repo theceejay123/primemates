@@ -4,8 +4,8 @@
 # name of the character.
 
 define e = Character("Eileen")
-
-
+define a = Character("Ceejay")
+define narrator = nvl_narrator
 # The game starts here.
 
 label start:
@@ -23,9 +23,10 @@ label start:
     show eileen happy
 
     # These display lines of dialogue.
-
+    
+    "Oh, hewwo derr! Wewcome to mai game!"
     e "You've created a new Ren'Py game."
-
+    a "Hi, my name is Ceejay"
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
