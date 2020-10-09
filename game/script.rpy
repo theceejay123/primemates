@@ -4,7 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
-
+define a = Character("Ceejay")
 
 # The game starts here.
 
@@ -25,7 +25,7 @@ label start:
     # These display lines of dialogue.
 
     e "You've created a new Ren'Py game."
-
+    a "Hi my name is ceejay"
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
