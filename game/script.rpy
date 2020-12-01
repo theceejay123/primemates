@@ -25,7 +25,7 @@ init:
     $ m = Character('Marc')
     $ k = Character('Karen')
     # define all sounds
-    $
+    $ audio
 
 
 # The game starts here.
