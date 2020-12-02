@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 14: end of line expected.
-    jump scripts start_game.py
-                 ^
+File "game/script.rpy", line 37: end of line expected.
+    scene bg room = './images/backgrounds/bg_room.png'
+                  ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sun Nov 08 21:44:31 2020
+Tue Dec 01 18:35:39 2020

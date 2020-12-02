@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 14, in script
-    jump start_game
-ScriptError: could not find label 'start_game'.
+  File "game/scripts/start/start_game.rpy", line 88, in script
+    sam "Hey  %(playerName)"
+ValueError: incomplete format
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 14, in script
-    jump start_game
-  File "C:\Users\Ceejay\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\Ceejay\Desktop\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'start_game'.
+  File "game/scripts/start/start_game.rpy", line 88, in script
+    sam "Hey  %(playerName)"
+  File "C:\Users\Ceejay\Desktop\renpy-7.3.5-sdk\renpy\ast.py", line 708, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Ceejay\Desktop\renpy-7.3.5-sdk\renpy\exports.py", line 1334, in say
+    what = what % tag_quoting_dict
+ValueError: incomplete format
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 Prime Mates 1.0
-Sun Nov 08 21:46:25 2020
+Tue Dec 01 19:14:47 2020
