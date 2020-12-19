@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 37: end of line expected.
-    scene bg room = './images/backgrounds/bg_room.png'
-                  ^
+File "game/scripts/start/start_game.rpy", line 607: expected statement.
+    nvl_clear
+             ^
+
+File "game/scripts/start/start_game.rpy", line 1062: expected statement.
+    nvl_clear
+             ^
+
+File "game/scripts/start/start_game.rpy", line 1141: expected statement.
+    nvl_clear
+             ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Dec 01 18:35:39 2020
+Mon Dec 14 22:45:28 2020
